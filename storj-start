@@ -1,0 +1,11 @@
+#!/bin/ash
+
+# Wait until daemon started
+until storjshare daemon --status
+do
+  echo 'Waiting for storj daemon to start ...'
+  sleep 1
+done
+echo 'Storj started.'
+
+storjshare start --config /etc/storj/config.json
