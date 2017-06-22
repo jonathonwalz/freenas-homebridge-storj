@@ -17,7 +17,7 @@ VOLUME /etc/storj
 EXPOSE 4000/tcp
 
 LABEL org.freenas.interactive="false" \
-      org.freenas.version="1.01" \
+      org.freenas.version="1.2" \
       org.freenas.upgradeable="true" \
       org.freenas.expose-ports-at-host="false" \
       org.freenas.autostart="true" \
