@@ -17,11 +17,11 @@ VOLUME /etc/storj
 EXPOSE 4000/tcp
 
 LABEL org.freenas.interactive="false" \
-      org.freenas.version="1.2" \
+      org.freenas.version="1.3" \
       org.freenas.upgradeable="true" \
       org.freenas.expose-ports-at-host="false" \
       org.freenas.autostart="true" \
-      org.freenas.port-mappings="4000:4000/tcp" \
+      org.freenas.port-mappings="4000:4000/tcp,4001:4001/tcp,4002:4002/tcp,4003:4003/tcp" \
       org.freenas.volumes="[						\
           {								\
               \"name\": \"/etc/storj\",				\
